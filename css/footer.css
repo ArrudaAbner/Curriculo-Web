@@ -1,0 +1,32 @@
+.rodape__container {
+    align-items: flex-end;
+    background: #1b1d2d;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 30px;
+}
+
+.rodape__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.rodape__imagem {
+    margin: 5px 10px;
+    transition: all .2s ease-in-out;
+    width: 50px;
+}
+
+.rodape__imagem:hover {
+    scale: 1.1;
+}
+
+.rodape__texto {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 400;
+    width: 300px;
+}

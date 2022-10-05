@@ -1,0 +1,9 @@
+/*light 300, light 300 italic, regular 400 italic, medium 500, bold 700*/
+
+body {
+    font-family: montserrat;
+}
+
+main {
+    background: #f0f0f0;
+}
