@@ -9,8 +9,24 @@ body {
     visibility: visible;
 }
 
-@media print  {
-    .rodape__container{
-        margin-top: 150px;
+@media print {
+    @page {
+        margin: 0;
+    }
+
+    body {
+        margin: 1.6cm;
+    }
+
+    .conteudo__print{
+        display: none;
+    }
+
+    .header__container {
+
+    }
+
+    .rodape__container {
+        margin-top: 280px;
     }
 }
