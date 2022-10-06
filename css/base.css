@@ -2,8 +2,15 @@
 
 body {
     font-family: montserrat;
+    user-select: none;
 }
 
 .print {
     visibility: visible;
+}
+
+@media print  {
+    .rodape__container{
+        margin-top: 150px;
+    }
 }
