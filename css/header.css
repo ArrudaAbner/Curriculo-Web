@@ -1,73 +1,74 @@
 .header__container {
-    background: #1b1d2d;
-}
-
-.header__container-section {
     align-items: center;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: #000000;
     display: flex;
-    flex-direction: row;
-    height: 280px;
-    max-height: 300px;
+    flex-direction: column;
+    vertical-align: middle;
+    width: 100%;
 }
 
 .header__image {
-    border: 4px solid #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     border-radius: 50%;
-    box-shadow: 0px 0px 5px #ffffff;
-    margin: 3rem;
-    margin-left: 10rem;
+    margin-top: 20px;
     width: 12rem;
 }
 
-.header__info {
-    margin: 3rem 1rem;
-    text-align: center;
-}
-
 .header__info-container {
-    color: #ffffff;
-    margin-bottom: 2rem;
-    padding: .5rem;
-}
-
-.header__info-contact {
+    margin: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    padding: 15px;
     text-align: center;
-}
-
-.header__image-social {
-    background-color: #ffffff;
-    margin-right: 1rem;
-    width: 1.5rem;
 }
 
 .header__info-tittle {
     font-size: 22px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+.header__info-line {
+    margin-bottom: 5px;
+}
+
+.header__info-subtittle {
+    margin: 10px 0;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .header__info-text {
     align-items: center;
-    color: #ffffff;
     text-align: center;
     text-decoration: none;
     margin: 1rem 0;
 }
 
-.header__info-text-bold {
-    margin: 5px 0;
-    font-style: italic;
-    font-weight: 400;
+.header__info-ul {
+    text-align: center;
 }
 
-.header__li {
+.header__info-li {
     align-items: center;
     margin: .5rem 0;
     text-align: start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) {
+    .header__container {
+        flex-direction: row;
+        justify-content: center;
+        vertical-align: none;
+    }
+
+    .header__info-container {
+        margin: 0 125px;
+    }
+
     .header__image {
-        margin-left: 2.5rem;
+        margin: 25px 40px;
     }
 }
+

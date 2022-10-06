@@ -4,6 +4,6 @@ body {
     font-family: montserrat;
 }
 
-main {
-    background: #f0f0f0;
+.print {
+    visibility: visible;
 }
