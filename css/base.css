@@ -1,6 +1,7 @@
 /*light 300, light 300 italic, regular 400 italic, medium 500, bold 700*/
 
 body {
+    background: #f0f0f0;
     font-family: montserrat;
     user-select: none;
 }
